@@ -10,6 +10,6 @@ app.use(morgan("dev"))
 app.use("/student", studentRoutes)
 
 
-const PORT = 5003
+const PORT = 5001
 app.listen(PORT)
 console.log(`Port is running in port ${PORT}`)
